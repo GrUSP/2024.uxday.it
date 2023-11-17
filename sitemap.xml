@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://2024.uxday.it/workshop/font_variabili.html</loc>
+    
+    <lastmod>2023-11-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.uxday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2023-11-17</lastmod>
@@ -9,14 +16,7 @@
   </url>
   
   <url>
-    <loc>https://2024.uxday.it/workshop/index.html</loc>
-    
-    <lastmod>2023-11-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.uxday.it/workshop/font_variabili.html</loc>
+    <loc>https://2024.uxday.it/schedule/index.html</loc>
     
     <lastmod>2023-11-17</lastmod>
     
@@ -37,28 +37,14 @@
   </url>
   
   <url>
+    <loc>https://2024.uxday.it/workshop/index.html</loc>
+    
+    <lastmod>2023-11-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.uxday.it/welcome/index.html</loc>
-    
-    <lastmod>2023-11-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.uxday.it/welcome/cfp.html</loc>
-    
-    <lastmod>2023-11-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.uxday.it/schedule/index.html</loc>
-    
-    <lastmod>2023-11-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.uxday.it/welcome/about.html</loc>
     
     <lastmod>2023-11-17</lastmod>
     
@@ -72,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://2024.uxday.it/welcome/scholarships.html</loc>
+    <loc>https://2024.uxday.it/welcome/cfp.html</loc>
     
     <lastmod>2023-11-17</lastmod>
     
@@ -80,6 +66,20 @@
   
   <url>
     <loc>https://2024.uxday.it/welcome/where.html</loc>
+    
+    <lastmod>2023-11-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.uxday.it/welcome/scholarships.html</loc>
+    
+    <lastmod>2023-11-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.uxday.it/welcome/about.html</loc>
     
     <lastmod>2023-11-17</lastmod>
     
