@@ -6,6 +6,7 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
+  welcome/cfp.html: call for paper
   # talks_speakers: talk e speaker
   # scommentare per generare pagina
   # schedule: schedule
