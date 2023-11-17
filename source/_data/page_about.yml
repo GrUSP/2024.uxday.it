@@ -12,12 +12,7 @@ intro:
 more:
   title: "<a name='comunicato'>uxday</a>"
   content_1:
-    "uxday è la prima conferenza italiana dedicata esclusivamente alla User Experience, in tutte le sue declinazioni.
-    L'evento era previsto per il 9 Giugno 2023, ma a seguito dell'alluvione che ha interessato Faenza e la Romagna è stato posticipato al 29 Settembre 2023.
-    <br><br /><b><i>COMUNICATO DEL 26 MAGGIO 2023</b></i><br />
-    Faenza e tutta la Romagna stanno affrontando un’alluvione che ha lasciato importanti danni alla città e alle infrastrutture. Parte del nostro team risiede proprio a Faenza e dintorni.
-    Il cinema teatro Sarti dove si tiene l’evento non è stato danneggiato, ma moltissimi edifici (e quindi hotel e alloggi) non sono agibili, ci sono moltissime famiglie che non possono tornare nelle proprie case, le persone sono impegnate a ripulire ed aiutarsi, alcune strade e ferrovie che erano state interrotte sono in manutenzione ma è ancora complicato muoversi in tutta la Regione.
-    Ci auguriamo di cuore che entro poche settimane tutto venga rimesso a posto, e sappiamo quanta forza abbia la gente che sta affrontando tutto questo; e proprio per rispetto verso di loro, la decisione migliore ci sembra quella di dare tempo e quindi posticipare l’evento."
+    "uxday è la prima conferenza italiana dedicata esclusivamente alla User Experience, in tutte le sue declinazioni."
   content_2:
 past_edition:
   title: "Guarda le passate edizioni della conferenza"
@@ -28,34 +23,38 @@ team:
   intro: ""
   members:
     member_1:
-      name: "Giovanna Ferrari"
-      role: "sponsor management"
-      pic_filename: "giovanna.jpg"
-    member_2:
-      name: "Giorgio Fochesato"
-      role: "community manager"
-      pic_filename: "giorgio-fochesato.png"
-    member_3:
-      name: "Francesco Fullone"
-      role: "troublemaker"
-      pic_filename: "fullo.jpg"
-    member_4:
-      name: "Lara Lombardi"
-      role: "marketing manager"
-      pic_filename: "lara.png"
-    member_5:
-      name: "Giulia Tosato"
-      role: "event manager"
-      pic_filename: "giulia.jpg"
-    member_6:
       name: "Matteo Beccati"
-      role: "GrUSP Board Member"
-      pic_filename: "matteo.jpg"
-    member_7:
+      role: "GrUSP Board<br>Member"
+      pic_filename: "matteo_yellow.jpg"
+    member_2:
       name: "Cesare D'Amico"
-      role: "GrUSP Board Member"
-      pic_filename: "cesare.jpg"
+      role: "GrUSP Board<br>Member"
+      pic_filename: "cesare_yellow.jpg"
+    member_3:
+      name: "Giovanna Ferrari"
+      role: "Sponsor<br>Manager"
+      pic_filename: "giovanna_yellow.jpg"
+    member_5:
+      name: "Giorgio Fochesato"
+      role: "Community<br>Manager"
+      pic_filename: "giorgio_yellow.jpg"
+    member_6:
+      name: "Francesco Fullone"
+      role: "Trouble<br>Maker"
+      pic_filename: "fullo_yellow.jpg"
     member_8:
+      name: "Lara Lombardi"
+      role: "Marketing<br>Manager"
+      pic_filename: "lara_yellow.jpg"
+    member_9:
       name: "Daniel Londero"
-      role: "GrUSP Board Member"
-      pic_filename: "daniel.jpg"
+      role: "GrUSP Board<br>Member"
+      pic_filename: "daniel_yellow.jpg"
+    member_10:
+      name: "Francesco Mancini"
+      role: "Regia e Video"
+      pic_filename: "francesco_yellow.jpg"
+    member_11:
+      name: "Giulia Tosato"
+      role: "Event Manager"
+      pic_filename: "giulia_yellow.jpg"
