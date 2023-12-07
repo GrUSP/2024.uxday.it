@@ -16,17 +16,18 @@ sponsors_block_title: ""
 #     site_url: ""
 gold:
   sponsor0:
-    name: "Moze"
-    logo_filename: "moze.svg"
-    site_url: "https://www.mozestudio.com/it/"
-  sponsor1:
-    name: "workwave"
-    logo_filename: "workwave.svg"
-    site_url: "https://www.workwave.com/"
-  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor1:
+    name: "Moze"
+    logo_filename: "moze.svg"
+    site_url: "https://www.mozestudio.com/it/"
+  sponsor2:
+    name: "Workwave"
+    logo_filename: "workwave.svg"
+    site_url: "https://www.workwave.com/"
+  
 # silver:
 #  sponsor4:
 #    name: "Madisoft"
