@@ -21,7 +21,7 @@ gold:
     site_url: "http://www.darumahq.com/"
   sponsor1:
     name: "Moze"
-    logo_filename: "moze.svg"
+    logo_filename: "moze.png"
     site_url: "https://www.mozestudio.com/it/"
   sponsor2:
     name: "Workwave"
