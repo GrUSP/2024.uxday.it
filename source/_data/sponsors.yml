@@ -21,27 +21,18 @@ gold:
     site_url: "http://www.darumahq.com/"
   sponsor1:
     name: "Moze"
-    logo_filename: "moze.png"
+    logo_filename: "moze.svg"
     site_url: "https://www.mozestudio.com/it/"
+silver:
   sponsor2:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-  
-# silver:
-#  sponsor4:
-#    name: "Madisoft"
-#    logo_filename: "madisoft.svg"
-#    site_url: "https://labs.madisoft.it"
-#  sponsor6:
-#    name: "SiteGround"
-#    logo_filename: "siteground.png"
-#    site_url: "https://www.siteground.com/"
 bronze:
   sponsor2:
-    name: "stickermule"
+    name: "Stickermule"
     logo_filename: "stickermule.svg"
-    site_url: "https://mule.to/p2gc"
+    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
 # diversity:
 #   sponsor1:
 #     name: "S"
