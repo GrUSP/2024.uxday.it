@@ -29,6 +29,10 @@ silver:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 bronze:
+  sponsor1:
+    name: "PostPickr"
+    logo_filename: "postpickr.svg"
+    site_url: "https://www.postpickr.com/"
   sponsor2:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
