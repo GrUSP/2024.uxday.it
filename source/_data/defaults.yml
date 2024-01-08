@@ -13,7 +13,6 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Compra il biglietto"
-  buy_tickets_url: "https://ti.to/grusp/uxday-2024"
   # additional info for microdata / schema.org
   md_city: "Faenza"
   md_province: "RA"
@@ -167,7 +166,7 @@ conference:
   past_editions_videos_mid: " e "
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
-  footer_copy_text: "è &copy; del Grusp e del suo fantastico team"
+  footer_copy_text: "è &copy; del <a href='https://www.grusp.org'>GrUSP</a> e del suo fantastico team"
   footer_contact_text: "Contattaci "
   footer_links_pre: "Puoi leggere la nostra "
   footer_links_privacy_link_label: "privacy policy"
@@ -185,3 +184,6 @@ conference:
   # Google Tag Manager
   google:
     tag_manager_id: "GTM-PFFLRF9"
+  # Tito tickets
+  tito:
+    event: grusp/uxday-2024

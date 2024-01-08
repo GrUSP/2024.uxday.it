@@ -31,6 +31,7 @@
   * [Sponsor](#sponsor)
     * [Pagina "sponsor"](#pagina-sponsor)
     * [Componente "sponsors"](#componente-sponsors)
+  * [Tickets](#tickets)
 <!--/ToC-->
 
 ## Installazione
@@ -404,7 +405,6 @@ Dopo la sezione "Additional config" dove come detto si seleziona il tema, segue 
 ```
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://rubyday-2020.eventbrite.com/"
 ```
 
 Label dei pulsanti *Buy tickets*, tranne quello presente nella *hero section* della home page (vedi sotto); URL del sito per l'acquisto dei biglietti
@@ -782,6 +782,16 @@ L'URL del link "privacy policy" in fondo al footer vioene composta con `privacy_
 ```
 
 `tag_manager_id` viene preso dal dashboard di Google (cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c)
+
+### tickets
+
+```
+  # Tito tickets
+  tito:
+    event: grusp/incontrodevops-2024
+```
+
+Va riportato il nome dell'evento come definito su Tito.
 
 ### welcome
 

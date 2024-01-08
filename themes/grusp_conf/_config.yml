@@ -23,6 +23,7 @@ workshop_submenu:
 welcome_submenu:
   about: about
   coc: codice di condotta
+  safety: salute pubblica
   scholarships: borse di studio
   where: dove e come
   # delete this row to take out of the menu

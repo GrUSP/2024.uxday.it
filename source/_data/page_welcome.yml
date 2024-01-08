@@ -11,6 +11,9 @@ info_about:
 info_coc:
   title: "COC"
   content: "Regole di comportamento"
+info_safety:
+  title: "Salute pubblica"
+  content: "La salute di tutti è una nostra priorità"
 info_scholarships:
   title: "Scholarships"
   content: "Come richiedere un biglietto gratuito"
@@ -22,6 +25,6 @@ info_venue:
   content: "Informazioni utili"
 info_ticket:
   title: "Biglietti"
-  content: "I biglietti sono disponibili su Eventbrite"
+  content: "I biglietti sono disponibili su Tito"
   # the tickets link is the only one that does not use the "global" label
   readmore_label: "ACQUISTA"
