@@ -3,23 +3,22 @@
 - if (is_home()) pageTitle = 'home'
 - pageTitle += ' | ' + config.title
 
+- var ogDescription = page.description
+- if (is_home()) ogDescription = config.description
+
 doctype html
 html(lang=config.language)
   head
     meta(charset='UTF-8')
     title=pageTitle
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel="canonical" href=url)
-
-    meta(property='og:title', content=site.data.defaults.conference.title)
-    if(is_home())
-      meta(property='og:description', content=config.description)
-    else
-      meta(property='og:description', content=page.description)
+    link(rel="canonical" href=url.replace('/index.html', '/'))
 
     meta(property="og:image" content=full_url_for(`/assets/img/social-1200x630.png`))
     meta(property="og:image:width" content="1200")
     meta(property="og:image:height" content="630")
+
+    != open_graph({title:pageTitle, description:ogDescription, site_name:config.slug})
 
     //- Favicons
     link(rel="apple-touch-icon" sizes="180x180" href=`/assets/favicons/apple-touch-icon.png`)
@@ -29,8 +28,6 @@ html(lang=config.language)
     link(rel="manifest" href=`/assets/favicons/site.webmanifest`)
 
     link(rel="shortcut icon" href=`/assets/favicons/favicon.ico`)
-
-    != open_graph()
 
     if theme.stylesheets !== undefined && theme.stylesheets.length > 0
       //- stylesheets list from _config.yml
@@ -70,7 +67,7 @@ html(lang=config.language)
           "@type": "Offer",
           "description": "Tickets",
           "availability": "https://schema.org/LimitedAvailability",
-          "url": "#{site.data.defaults.conference.buy_tickets_url}"
+          "url": "#{full_url_for("tickets")}"
         },
         {
           "@type": "Offer",
@@ -98,10 +95,12 @@ html(lang=config.language)
             "#{site.data.defaults.conference.social_vimeo_url}",
             "#{site.data.defaults.conference.social_youtube_url}",
             "#{site.data.defaults.conference.social_linkedin_url}",
-            "#{site.data.defaults.conference.social_instagram_url}"
+            "#{site.data.defaults.conference.social_instagram_url}",
+            "#{site.data.defaults.conference.social_mastodon_url}"
           ]
         }
       }
+    script(src='https://js.tito.io/v2' async)
 
   body
     #content-outer

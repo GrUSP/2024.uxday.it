@@ -43,6 +43,10 @@ block content
                     include ../source/assets/ico/ico-coc.svg
                     - the_title = site.data.page_welcome.info_coc.title
                     - the_content = site.data.page_welcome.info_coc.content
+                  if(sub_key === "safety")
+                    include ../source/assets/ico/ico-safety.svg
+                    - the_title = site.data.page_welcome.info_safety.title
+                    - the_content = site.data.page_welcome.info_safety.content
                   if(sub_key === "scholarships")
                     include ../source/assets/ico/ico-scholarship.svg
                     - the_title = site.data.page_welcome.info_scholarships.title
@@ -68,11 +72,11 @@ block content
                 - the_title = site.data.page_welcome.info_ticket.title
                 - the_content = site.data.page_welcome.info_ticket.content
               .info__location
-                a(href=site.data.defaults.conference.buy_tickets_url aria-label=site.data.defaults.conference.menu_buy_tickets_label)
+                a(href=url_for("tickets") aria-label=site.data.defaults.conference.menu_buy_tickets_label)
                   span !{the_title}
             p !{the_content}
             p
-              a(href=site.data.defaults.conference.buy_tickets_url target="_blank" rel="noopener noreferrer external" role="button" aria-label=site.data.defaults.conference.menu_buy_tickets_label) !{site.data.page_welcome.info_ticket.readmore_label}
+              a(href=url_for("tickets") role="button" aria-label=site.data.defaults.conference.menu_buy_tickets_label) !{site.data.page_welcome.info_ticket.readmore_label}
 
     //- imported components
     include components/newsletter/newsletter
