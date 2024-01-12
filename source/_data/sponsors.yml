@@ -24,6 +24,10 @@ gold:
     logo_filename: "moze.svg"
     site_url: "https://www.mozestudio.com/it/"
 silver:
+  sponsor1:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.svg"
+    site_url: "https://www.sparkfabrik.com/"
   sponsor2:
     name: "Workwave"
     logo_filename: "workwave.svg"
