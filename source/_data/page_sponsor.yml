@@ -51,7 +51,7 @@ levels:
     name: Diamond
     amount: 3000
     vat_label: "(+ VAT 22%)"
-    available_slots: 2
+    available_slots: 1
     description_1:
       - "Accesso alla lista dei partecipanti (che hanno dato consenso a condivisione dati)"
     description_2:
@@ -75,7 +75,7 @@ levels:
     name: Platinum
     amount: 1500
     vat_label: "(+ VAT 22%)"
-    available_slots: 4
+    available_slots: 1
     description_2:
       - "Stand fisico - piccolo"
       - "Booth virtuale - piccolo"
@@ -97,7 +97,7 @@ levels:
     name: Gold
     amount: 750
     vat_label: "(+ VAT 22%)"
-    available_slots: 8
+    available_slots: 6
     description_3:
       - "Vostro rollup nella sala della conferenza fisica"
       - "Logo nei rollup della conferenza"
@@ -116,7 +116,7 @@ levels:
     name: Silver
     amount: 500
     vat_label: "(+ VAT 22%)"
-    available_slots: 16
+    available_slots: 8
     description_3:
       - "Logo nei rollup della conferenza"
       - "Logo in sovraimpressione durante la diretta (a rotazione)"
@@ -134,7 +134,7 @@ levels:
     name: Bronze
     amount: 250
     vat_label: "(+ VAT 22%)"
-    available_slots: 32
+    available_slots: 16
     description_5:
       - "Logo nelle comunicazioni pre-evento"
       - "Logo sul sito della conferenza"
@@ -145,7 +145,7 @@ levels:
     name: Diversity
     amount: 500
     vat_label: "(+ VAT 22%)"
-    available_slots: 32
+    available_slots: 2
     description_5:
       - "Logo nelle comunicazioni pre-evento"
       - "Logo sul sito della conferenza"
