@@ -29,6 +29,10 @@ silver:
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
   sponsor2:
+    name: "Spreaker"
+    logo_filename: "spreaker.svg"
+    site_url: "https://www.spreaker.com/?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
+  sponsor3:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
