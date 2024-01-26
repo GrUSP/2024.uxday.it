@@ -9,11 +9,11 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/people/"
 gold:
   sponsor0:
     name: "Daruma"
@@ -25,14 +25,18 @@ gold:
     site_url: "https://www.mozestudio.com/it/"
 silver:
   sponsor1:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor2:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor2:
+  sponsor3:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com/?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor3:
+  sponsor4:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
