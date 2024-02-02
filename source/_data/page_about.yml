@@ -24,37 +24,41 @@ team:
   members:
     member_1:
       name: "Matteo Beccati"
-      role: "GrUSP Board<br>Member"
+      role: "GrUSP Founder & Board Member"
       pic_filename: "matteo_yellow.jpg"
-    member_2:
-      name: "Cesare D'Amico"
-      role: "GrUSP Board<br>Member"
-      pic_filename: "cesare_yellow.jpg"
+    member_11:
+      name: "Cristina Chesini"
+      role: "Training Manager"
+      pic_filename: "cristina_yellow.jpg"
     member_3:
+      name: "Cesare D'Amico"
+      role: "GrUSP founder & Board Member"
+      pic_filename: "cesare_yellow.jpg"
+    member_4:
       name: "Giovanna Ferrari"
-      role: "Sponsor<br>Manager"
+      role: "Sponsors Manager"
       pic_filename: "giovanna_yellow.jpg"
     member_5:
       name: "Giorgio Fochesato"
-      role: "Community<br>Manager"
+      role: "Community manager"
       pic_filename: "giorgio_yellow.jpg"
     member_6:
       name: "Francesco Fullone"
-      role: "Trouble<br>Maker"
+      role: "Trouble maker"
       pic_filename: "fullo_yellow.jpg"
-    member_8:
+    member_7:
       name: "Lara Lombardi"
-      role: "Marketing<br>Manager"
+      role: "Marketing manager"
       pic_filename: "lara_yellow.jpg"
-    member_9:
+    member_8:
       name: "Daniel Londero"
-      role: "GrUSP Board<br>Member"
+      role: "GrUSP Board Member"
       pic_filename: "daniel_yellow.jpg"
-    member_10:
-      name: "Francesco Mancini"
+    member_9:
+      name: "Francesco Mancin"
       role: "Regia e Video"
       pic_filename: "francesco_yellow.jpg"
-    member_11:
+    member_10:
       name: "Giulia Tosato"
       role: "Event Manager"
       pic_filename: "giulia_yellow.jpg"
