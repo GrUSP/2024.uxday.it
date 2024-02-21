@@ -7,7 +7,7 @@ language: "it"
 menu:
   welcome: welcome
   # welcome/cfp.html: call for paper
-  # talks_speakers: talk e speaker
+  talks_speakers: speaker e talk
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
@@ -15,8 +15,8 @@ menu:
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-workshop_submenu:
-   font_variabili: Tipografia web e font variabili
+# workshop_submenu:
+#    font_variabili: Tipografia web e font variabili
 #   workshop_2: sample second workshop
 
 # welcome submenu

@@ -1,35 +1,242 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+speaker_1: &nicolabonotto
+  speaker_in_speaker_lists: true
+  speaker_name: Nicola Bonotto
+  speaker_pic_filename: nicola-bonotto.png
+  speaker_role: Co-Founder, head of sustainability, web developer @ Piano D
+  speaker_bio: Co-Founder, Web Developer, Head of Sustainability presso Piano D
+    S.r.l. Società Benefit. Relatore, autore di testi sui temi della
+    sostenibilità digitale, impegnato nella divulgazione in Italia riguardo
+    l’impatto ambientale e sociale delle tecnologie digitali.
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
-  speaker_linkedin_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/nikolabonotto/"
   speaker_mastodon_url: ""
   is_mc: false
+# speaker_2: &federicobortot
+#   speaker_in_speaker_lists: true
+#   speaker_name: Federico Bortot
+#   speaker_pic_filename: federico-bortot.png
+#   speaker_role: Product Designer @ Mia-Platform
+#   speaker_bio: Dopo una laurea in ingegneria civile e una crisi esistenziale,
+#     ho iniziato il mio percorso come designer industriale al Polimi, per poi
+#     spostarmi professionalmente sempre più verso le esperienze digitali. Sono
+#     passata dalle banche ai videogiochi, e adesso lavoro a un internal developer
+#     platform internazionale (e cerco di capirci qualcosa). Matematica, fisica,
+#     logica, semiotica, interpretazione, sono solo alcuni degli interessi che mi
+#     tengono sveglio la notte. Ultimamente sto molto in fissa con l'ottica, la
+#     percezione dei colori, le onde elettromagnetiche e il magenta.
+#   speaker_twitter: ""
+#   speaker_github: https://github.com/FrankieBortot
+#   speaker_linkedin: https://www.linkedin.com/in/federico-bortot/
+speaker_3: &michelcatalisano
+  speaker_in_speaker_lists: true
+  speaker_name: Michel Catalisano
+  speaker_pic_filename: michel-catalisano.png
+  speaker_role: UX/UI Designer @ Mònade
+  speaker_bio: Michel ha da sempre la passione per il mondo visivo, spaziando
+    dalla fotografia al digital design. Negli ultimi anni, ha concentrato la sua
+    expertise nell'usabilità e nei Design System, condividendo le sue competenze
+    attraverso webinar aziendali e lezioni in accademia. Attualmente è senior
+    UX/UI designer in Mònade dove progetta interfacce e sforna biscottini.
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/michelcatalisano/"
+  speaker_mastodon_url: ""
+speaker_4: &danieledelgaudio
+  speaker_in_speaker_lists: true
+  speaker_name: Daniele Del Gaudio
+  speaker_pic_filename: daniele-delgaudio.png
+  speaker_role: "Experience design manager @ frog "
+  speaker_bio: Daniele ha solide competenze metodologiche maturate anche
+    grazie al suo percorso dottorale accademico. Oggi lavora in frog Italy come
+    Experience Design Manager, è appassionato dei nuovi trend, delle tecnologie
+    che migliorano la vita umana e di tutto ciò che è vera evoluzione. Tuttavia,
+    non disprezza nel tempo libero qualche chiacchiera sui massimi sistemi,
+    probabilmente anche a causa del suo background come sociologo. La sua
+    missione è creare prodotti usabili e accessibili, con un approccio centrato
+    sull'utente che generi esperienze memorabili.
+  speaker_linkedin_url: https://www.linkedin.com/in/ddgux/
+# speaker_5: &riccardofresco
+#   speaker_in_speaker_lists: true
+#   speaker_name: Riccardo Fresco
+#   speaker_pic_filename: riccardo-fresco.png
+#   speaker_role: Product Designer e Volontario Digitale @ Skillando Digital Volunteering
+#   speaker_bio: UX Product Designer con un forte background nel multimedia e lo
+#     sviluppo web, sono volontario dal 2020 in Skillando Digital
+#     Volunteering.  Da anni ho spostato la filosofia del lavoro da remoto e mi
+#     considero nomade digitale viaggiando, ascoltando e imparando da diverse
+#     culture.  Ho sviluppato la mia carriera professionale in Spagna ma rimango
+#     legato all'Italia attraverso la realizzazione di progetti nel
+#     sociale.  Difendo un utilizzo giusto del digitale per rispondere alle
+#     necessità delle persone e mi batto per ridurre le barriere create dalla sua
+#     inarrestabile crescita.
+#   speaker_twitter: ""
+#   speaker_github: ""
+#   speaker_linkedin: https://www.linkedin.com/in/linkedin.com/in/riccardo-fresco
+speaker_6: &elisainvernizzi
+  speaker_in_speaker_lists: true
+  speaker_name: Elisa Invernizzi
+  speaker_pic_filename: elisa-invernizzi.png
+  speaker_role: Copywriter @ Creeo Studio
+  speaker_bio: Mi occupo di ricerca, progettazione e redazione di contenuti
+    testuali. Leggo, imparo e sperimento il potere trasformativo che ha il
+    linguaggio sulle persone. Scrivo per clienti che operano in diversi settori
+    di mercato (food, automazione industriale e tecnologie idrosanitarie). Sono
+    laureata in Comunicazione, Media e Pubblicità e ho conseguito una Magistrale
+    in Pubblicità all’Università di Urbino, culla dell’opera “La Città Ideale”.
+    Come sarebbe la mia? Ovviamente, accessibile e inclusiva.
+  speaker_twitter_url: https://twitter.com/ciochElisa
+  speaker_linkedin_url: "https://www.linkedin.com/in/ www.linkedin.com/in/elisa-i-2a5b73120    "
+speaker_7: &mariacristinalavazza
+  speaker_in_speaker_lists: true
+  speaker_name: Maria Cristina Lavazza
+  speaker_pic_filename: mariacristina-lavazza.png
+  speaker_role: Experience / service designer, innovatrice sociale,
+    facilitatrice di processi partecipativi
+  speaker_bio: "Experience / service designer, innovatrice sociale,
+    facilitatrice di processi  partecipativi, partner a Utlab.  Con una
+    formazione in filosofia orientale e in biblioteconomia, il suo
+    impegno  principale è il coinvolgimento attivo delle persone con le quali
+    esplora e riprogetta esperienze complesse in ambienti molteplici: pubblici,
+    privati, corporate, startup,  nazionali e internazionali.  Insegna come
+    applicare lo human centered design in master specializzati,
+    facilita  workshop e percorsi di coaching supportando le organizzazioni nel
+    ripensare il loro approccio ai clienti, ai cittadini e ai collaboratori
+    interni. È autrice di due libri Comunicare la User Experience e Radical
+    Collaboration, di un  mazzo di carte UX Domino Card e di un gioco Designer
+    in Gioco, tutti con un’unica costante: le persone e la loro centralità nei
+    progetti. Scrive per il suo blog, www.mclavazza.it, ma anche per riviste e
+    giornali. È spesso  coinvolta in eventi nazionali e internazionali sui temi
+    del design partecipativo e  dello human centered design. Life is about the
+    people you meet and the things you create with them* Questo è il mantra che
+    riassume, in una riga, l’idea del design in cui crede. Perché nel suo lavoro
+    è una convinta sostenitrice che le persone vengano prima  della tecnologia e
+    che carta, pennarelli e post-it siano spesso più efficaci di guru,  teorie
+    assolute e massime verità.
+    <br> <i>*non è mio, ma del Holstee Manifesto 😊</i>"
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: ""
+speaker_8: &giuliomichelon
+  speaker_in_speaker_lists: true
+  speaker_name: Giulio Michelon
+  speaker_pic_filename: giulio-michelon.png
+  speaker_role: Founder @ Belka
+  speaker_bio: Fonda Belka dal 2015. Negli anni ha aiutato aziende come Subito,
+    Fatture in Cloud e NeN a crescere grazie al prodotto digitale. È campione
+    mondiale di opinioni forti.
+  speaker_twitter_url: https://twitter.com/mchgli
+  speaker_github: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/giuliomichelon/
+# speaker_9: &matteomontolli
+#   speaker_in_speaker_lists: true
+#   speaker_name: Matteo Montolli
+#   speaker_pic_filename: matteo-montolli.png
+#   speaker_role: Design Director
+#   speaker_bio: Dopo la Laurea in Lettere Moderne conseguita presso l’Università
+#     degli Studi di Padova, ha iniziato l’attività imprenditoriale fondando a
+#     Milano nel 2012 Moze, uno studio specializzato nella creazione di software
+#     web e mobile. Le sue competenze spaziano dagli aspetti più creativi del web
+#     a quelli più tecnici, con specializzazioni riguardanti il Product Design, la
+#     User Experience e la User Interface.
+#   speaker_twitter: https://twitter.com/matteomontolli
+#   speaker_github: ""
+#   speaker_linkedin: https://www.linkedin.com/in/matteomontolli/
+speaker_10: &andreapontiggia
+  speaker_in_speaker_lists: true
+  speaker_name: Andrea Pontiggia
+  speaker_pic_filename: andrea-pontiggia.png
+  speaker_role: "Founder, CEO&UX @ Creeo Studio  "
+  speaker_bio: Lavoro nel settore della comunicazione digitale dal 2000 e,
+    dopo qualche anno di esperienza nello sviluppo web, ho fondato Creeo Studio
+    accrescendo le mie competenze in ambito gestionale e manageriale, in qualità
+    di CEO, e progettuale, come responsabile del settore di esperienza utente
+    dell’agenzia. L’agenzia conta oggi un team di circa 20 persone ed è in
+    continua crescita. In affiancamento agli skill manageriali, in questi anni
+    di attività ho sviluppato le mie competenze come UX designer, per importanti
+    progetti di disegno dell’esperienza utente di applicazioni business, e come
+    delivery manager, per progetti di comunicazione digitale multicanale, volti
+    al mercato sia consumer che business.  Nel 2023 sono diventato licenziatario
+    di TEDxLecco ed ho avuto l’opportunità di vivere la magnifica esperienza di
+    organizzare un TEDx nella mia città insieme ad un fantastico team di circa
+    30 persone.
+  speaker_twitter_url: "https://twitter.com/andreapontiggia "
+  speaker_github: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/andreapontiggia/ "
+speaker_11: &letiziasechi
+  speaker_in_speaker_lists: true
+  speaker_name: Letizia Sechi
+  speaker_pic_filename: letizia-sechi.png
+  speaker_role: Content Designer – Freelance
+  speaker_bio: Letizia Sechi organizza parole e informazioni dal 2008.  Ha
+    lavorato a lungo in editoria; dal 2018 è freelance e collabora con enti,
+    aziende, studi di design e chiunque abbia bisogno di lavorare su scrittura e
+    linguaggio. Collabora – o ha collaborato – con Bompiani, Zanichelli,
+    Designers Italia, Istituto degli Innocenti, Fifth Beat, UxUniversity e tanti
+    altri.
+  speaker_twitter_url: https://twitter.com/letiziasechi
+  speaker_github: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/letiziasechi/
+speaker_12: &mariateresastella
+  speaker_in_speaker_lists: true
+  speaker_name: Maria Teresa Stella
+  speaker_pic_filename: mariateresa-stella.png
+  speaker_role: Senior UX Designer @ Cerved Group
+  speaker_bio: "Maria Teresa è UX Designer specializzata nella progettazione
+    di UX per il mondo aziendale. Essendosi trovata per più anni a lavorare come
+    unica designer nel suo team, crede nella possibilità di diffondere la
+    conoscenza dello UX design e di lavorare in contesti multidisciplinari.
+    Laureata in Psicologia, ha scoperto il mondo della UX all'università,
+    specializzandosi in Interazione uomo-macchina. L'altra sua passione è il
+    mentoring: aiuta diversi studenti e diplomati a entrare nel mondo della UX
+    ed è attualmente Top Mentor su Mentorcruise.com."
+  speaker_twitter_url: ""
+  speaker_github: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/mariateresastella/
+speaker_13: &beatricevivaldi
+  speaker_in_speaker_lists: true
+  speaker_name: Beatrice  Vivaldi
+  speaker_pic_filename: beatrice-vivaldi.png
+  speaker_role: Design Lead @ Mònade
+  speaker_bio: Beatrice è da 10+ anni nel mondo della UX/UI, è stata
+    un'insegnante della Digital Universitas di Superpartes S.p.a. ed ha
+    partecipato agli Italian Agile Days 2023 come speaker, dove ha parlato di
+    Co-Creazione e Design Thinking. Al momento è la Design Lead di Mònade, dove
+    si occupa della gestione del lavoro di UX/UI e della guida del team di
+    designer, e co-fondatrice di aiKnow, soluzione di AI per automatizzazione di
+    task e visualizzazione dati su richieste in linguaggio naturale.
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/beatricevivaldi/
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *nicolabonotto
+  # speaker_2: *federicobortot
+  speaker_3: *michelcatalisano
+  speaker_4: *danieledelgaudio
+  # speaker_5: *riccardofresco
+  speaker_6: *elisainvernizzi
+  speaker_7: *mariacristinalavazza
+  speaker_8: *giuliomichelon
+  # speaker_9: *matteomontolli
+  speaker_10: *andreapontiggia
+  speaker_11: *letiziasechi
+  speaker_12: *mariateresastella
+  speaker_13: *beatricevivaldi
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -44,42 +251,273 @@ days:
     date: 2020-09-16T09:00
     title: "Day 1"
     talks:
-      talk_1:
-        item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
-        item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
 
-      # talk
-      keynote:
-        item_type: "keynote"
+#service
+
+      checkin:
+        item_type: "service"
+        start_datetime: 2023-09-29T09:00+02:00
+        end_datetime: 2023-09-29T09:30+02:00
+        talk_title: "Check-in"
+      opening:
+        item_type: "service"
+        start_datetime: 2023-09-29T09:30+02:00
+        end_datetime: 2023-09-29T09:45+02:00
+        talk_title: "Intro by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2023-09-29T10:55+02:00
+        end_datetime: 2023-09-29T11:25+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2023-09-29T13:10+02:00
+        end_datetime: 2023-09-29T14:30+02:00
+        talk_title: "Pausa pranzo"
+        service_icon: "cutlery"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2023-09-29T15:40+02:00
+        end_datetime: 2023-09-29T16:10+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2023-09-29T17:20+02:00
+        end_datetime: 2023-09-29T17:30+02:00
+        talk_title: "Saluti da GrUSP"
+
+
+
+# talk
+
+      corporate-digital-responsibility:-pratiche-di-progettazione-web-sostenibile-1:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "Corporate Digital Responsibility: pratiche di progettazione web
+          sostenibile"
+        talk_description: "Sostenibilità ambientale, inclusione sociale, rispetto della privacy: in
+          altre parole Corporate Digital Responsibility. <br>Quali sono i valori che
+          inseriamo all'interno dei nostri progetti digitali? Siamo attenti
+          all'ambiente quando progettiamo un sito web? Oppure ci concentriamo
+          solamente su un aspetto della sfera ESG? Alcuni consigli pratici su come
+          migliorare la progettazione di un sito web, derivati anche dalle nuove
+          linee guida sulla sostenibilità web promosse dal Consorzio W3C. <br>CDR
+          applicata, per ottenere soluzioni digitali più attenti alle persone e
+          all'ambiente."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
+          speaker_1: *nicolabonotto
+      # la-magia-dell'accessibilita-nella-percezione-dei-colori-2:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: La magia dell'accessibilità nella percezione dei colori
+      #   talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la
+      #     vecchia palette utilizzata nel nostro prodotto digitale con quella nuova.
+      #     Perché non approfittarne per preparare il terreno a un sistema di gestione
+      #     dei colori che ci permetta di rispettare i requisiti di accessibilità dei
+      #     componenti grafici in modo più centralizzato? Molti design system (tra cui
+      #     anche il nostro) si basano su diversi colori, utilizzando una scala da 50
+      #     a 900 per identificare i vari toni dal più chiaro al più scuro. Tuttavia -
+      #     con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano
+      #     in modo diverso al contrasto e alla luminosità. In questa presentazione
+      #     racconterò il mio viaggio spericolato tra spazi colori, percezione umana e
+      #     fisiologia dell’occhio, per arrivare a scoprire un nuovo sistema di
+      #     gestione dei colori CSS proposto da una comunità di designer e
+      #     sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere
+      #     l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare
+      #     sì, e vale la pena diffondere la voce."
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *federicobortot
+      supereroi-e-super-interfacce:-il-futuro-e-oggi-4:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "Supereroi e super interfacce: il futuro è oggi? "
+        talk_description: In 2001 odissea nello spazio Kubrick mostrava già i tablet, mentre in
+          Alien abbiamo avuto un anticipo delle videochiamate... L'industria del
+          cinema e delle serie tv contribuisce a plasmare il nostro immaginario che
+          poi prende vita grazie alla mente di imprenditori illuminati come Steve
+          Jobs. <br>Esaminando le interfacce digitali usate in film e serie tv di oggi,
+          possiamo quindi forse avere già spoiler del futuro? In questo talk si
+          analizzeranno le interfacce digitali usate nel film di supereroi, cercando
+          di capire se effettivamente un domani ci troveremo questo tipo di
+          tecnologia e quali potrebbero essere pregi e difetti, evidenziandone le
+          caratteristiche, le funzionalità e le implicazioni per l’ux design.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
+          speaker_1: *danieledelgaudio
+      # implementare-il-design-thinking-in-una-onp:-le-persone-volontarie-al-centro-5:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: "Implementare il Design Thinking in una ONP: le persone volontarie al
+      #     centro"
+      #   talk_description: "Skillando Digital Volunteering è una community di volontariato digitale
+      #     che appoggia organizzazioni del terzo settore con lo scopo di ridurre il
+      #     digital divide tanto in Italia quanto nel resto del mondo.  Nell’ultimo
+      #     anno abbiamo ripensato alla nostra identità e cambiato il modello da
+      #     project based a platform based permettendo ad ogni persona di costruire
+      #     iniziative a favore della Mission per cui esistiamo.  In tal senso ci
+      #     siamo chiesti come poter riattivare e far crescere la community
+      #     focalizzandoci in persone motivate a donare tempo e competenze.  Spoiler
+      #     alert: il Design Thinking ci ha aiutato moltossimo! In questo talk voglio
+      #     condividere l’approccio che abbiamo adottato ascoltando le voci delle
+      #     persone volontarie insieme ai risultati e a ciò che abbiamo imparato
+      #     co-creando i processi interni della nostra ONP."
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *riccardofresco
+      case-study:-conferme-e-rivelazioni-sulla-casa-intelligente-bticino-6:
+        item_type: talk
+        track: *track_1
+        talk_title: "Case study: conferme e rivelazioni sulla casa intelligente BTicino"
+        talk_description: "La User Research può contribuire a cambiare il modo di comunicare
+          l’offerta di un brand? Forniamo la risposta attraverso il presente case
+          study che vede protagonista l’azienda BTicino. <br>Nel nostro talk
+          raccontiamo il processo che ha portato ai risultati: come abbiamo
+          coinvolto gli utenti in un percorso di ricerca qualitativa e quantitativa
+          (tramite analisi dati di Google Analytics, survey e focus group)? Come
+          abbiamo individuato le loro esigenze, paure e aspettative riguardo alla
+          Casa intelligente?  Partiamo dagli obiettivi e dalle motivazioni alla base
+          della domanda di ricerca e delle attività svolte. Descriviamo la
+          preparazione, la conduzione del focus group e la successiva analisi.
+          Mostriamo come abbiamo sviluppato le target personas, l’empathy map, la
+          user journey e le associazioni semantiche che descrivono la casa
+          intelligente. Fino ad arrivare alle conferme e alle rivelazioni che hanno
+          sorpreso il cliente, hanno arricchito la sua percezione del target e lo
+          hanno spinto a modificare lo stile comunicativo, da product-oriented a
+          customer-centred. <br>Per condividere una profonda testimonianza di come la
+          User Research possa essere un valore aggiunto nella progettazione della
+          comunicazione di prodotti e servizi."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *elisainvernizzi
+          speaker_2: *andreapontiggia
+      la-collaborazione-come-strumento-di-crescita-e-trasformazione-professionale-7:
+        item_type: talk
+        track: *track_1
+        talk_title: La collaborazione come strumento di crescita e trasformazione professionale
+        talk_description: Quale è il ruolo e lo stato della collaborazione nei team allargati di
+          design? Che cosa permette di contaminare i ruoli comprendendo limiti e
+          potenzialità dei profili che oggi rivestiamo? <br>La collaborazione è una
+          formidabile piattaforma di confronto generativo che, se sfruttata
+          adeguatamente, permette di capire come arricchire e trasformare il proprio
+          perimetro professionale.  Il futuro è nella capacità di contaminare
+          positivamente le professioni fino ad oggi verticali per dare vita a nuovi
+          modi di rispondere ai mercati in continuo movimento. <br>È tempo, allora, di
+          cavalcare l’onda della collaborazione per valutare chi siamo e chi
+          vogliamo e possiamo essere.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *mariacristinalavazza
+      come-progettare-partendo-dal-valore-8:
+        item_type: talk
+        track: *track_1
+        talk_title: Come progettare partendo dal valore
+        talk_description: "Risorse tagliate, budget striminziti, tempi ristretti. Come si possono
+          fare buoni progetti con queste premesse? È possibile partendo dal
+          valore. <br>In questo talk racconterò:
+          <li>come individuare il valore di un progetto;
+          <li>quali sono le domande che puoi fare al business per capire dov'è il valore di un'iniziativa;
+          <li>come definire le attività di progetto partendo dal valore;
+          <li>il tutto condito da esempi molto pratici di come affronto questa cosa in Belka.</li>
+          Partendo dal valore del progetto definire le scelte di progettazione è più semplice.
+          Questo perché si parte dai risultati e quindi naturalmente alcune scelte non sono percorribili e
+          quando diminuiscono le strade possibili è più semplice scegliere. "
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *giuliomichelon
+      # ora-come-mai-prima-d'ora-l'uomo-e-al-centro-9:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: Ora, come mai prima d’ora, l’uomo è al centro
+      #   talk_description: Il talk è indirizzato a professionisti che lavorano nell'ambito
+      #     dell'innovazione digitale, tra cui designer, product manager e
+      #     sviluppatori. Il suo focus principale è la crescente influenza
+      #     dell'intelligenza artificiale e l'importanza per gli esseri umani di
+      #     riaffermare il proprio ruolo in questo contesto. Sottolinea l'essenzialità
+      #     di una progettazione centrata sull'utente, mirata a creare esperienze
+      #     complete e armoniose che tengano conto sia delle necessità funzionali sia
+      #     di quelle emotive. Durante il talk verranno esplorate varie strategie e
+      #     metodologie per agevolare questo approccio.
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *matteomontolli
+      tutto-sotto-controllo:-come-gestire-le-linee-guida-sui-contenuti-all'interno-del-design-system-11:
+        item_type: talk
+        track: *track_1
+        talk_title: "Tutto sotto controllo: come gestire le linee guida sui contenuti
+          all'interno del design system"
+        talk_description: "Il linguaggio è un punto nevralgico dell'esperienza delle persone con
+          prodotti e servizi digitali. Come mantenerne il controllo quando si ha a
+          che fare con un ecosistema di servizi complesso, articolato e in
+          evoluzione continua? <br>Una soluzione è includere i contenuti nel design
+          system: permette di garantire esperienze d’uso chiare, di ridurre gli
+          errori di progettazione e di ottimizzare le risorse. Quali informazioni
+          includere? Dipende dal caso. <br>In questo intervento presenterò il lavoro in
+          corso per integrare nel design system di Zanichelli anche le linee guida
+          sui contenuti dei loro servizi digitali per la scuola."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *letiziasechi
+      come-progettare-interfacce-complesse-per-il-mondo-business:-un-salto-nella-enterprise-ux-12:
+        item_type: talk
+        track: *track_1
+        talk_title: "Come progettare interfacce complesse per il mondo business: un salto
+          nella Enterprise UX"
+        talk_description: Come possiamo creare un design efficace quando ci troviamo a progettare
+          interfacce complesse per il mondo business? <br>Questo talk offre soluzioni
+          pratiche alle sfide del B2B rispetto al mondo B2C. Esplora la complessità
+          dell'Enterprise UX, scoprendo le peculiarità degli utenti B2B e
+          apprendendo strategie per superare gli ostacoli. Condividerò il mio
+          approccio di design, dalla fase iniziale di discovery e benchmarking,
+          passando per consigli pratici sulla progettazione di interfacce complesse
+          fino ad arrivare alla fase di test con gli utenti, in modo da fornirti una
+          piccola guida di sopravvivenza da utilizzare in più contesti.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *mariateresastella
+      jurassic-ux:-design-best-practices-per-software-legacy-13:
+        item_type: talk
+        track: *track_1
+        talk_title: "Jurassic UX: design best practices per software legacy"
+        talk_description: Nel nostro lavoro quotidiano, ci troviamo spesso di fronte software legacy
+          che rappresentano vere e proprie sfide all'esperienza utente (UX). Come
+          possiamo affrontare l'ampliamento e l'innovazione di questi prodotti senza
+          stravolgerli completamente?  Affrontare l'ampliamento e l'innovazione di
+          questi prodotti è una sfida interessante. <br>In questo intervento,
+          esploreremo l'evoluzione del concetto di UX nei software degli anni '90 e
+          2000 e come è possibile modernizzarli mantenendo un'esperienza d'uso
+          coerente. Approfondiremo i metodi, le strategie e gli errori che abbiamo
+          incontrato lungo il nostro percorso in questo settore, mantenendo sempre
+          uno sguardo attento sui clienti profondamente affezionati ai loro software
+          legacy. Durante il talk, condivideremo casi studio concreti in cui i
+          nostri approcci sono stati applicati con successo, portando a risultati
+          innovativi e soddisfacenti per entrambe le parti coinvolte.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *beatricevivaldi
+          speaker_2: *michelcatalisano
