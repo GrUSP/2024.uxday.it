@@ -201,7 +201,13 @@ speaker_12: &mariateresastella
   speaker_twitter_url: ""
   speaker_github: ""
   speaker_linkedin_url: https://www.linkedin.com/in/mariateresastella/
-speaker_13: &beatricevivaldi
+speaker_13: &federicavittorielli
+  speaker_in_speaker_lists: true
+  speaker_name: Federica Vittorielli
+  speaker_pic_filename: federica-vittorielli.png
+  speaker_role: User Experience Designer @ frog
+  speaker_bio: Mentre creo esperienze digitali seamless, cerco di unire la creatività con i principi di progettazione user centered per offrire soluzioni innovative. Appassionata nello spingere i limiti e plasmare il futuro, sono interessata a VR/AR, AI e sostenibilità. Attualmente, lavoro come User Experience Designer presso frog Italy.
+speaker_14: &beatricevivaldi
   speaker_in_speaker_lists: true
   speaker_name: Beatrice  Vivaldi
   speaker_pic_filename: beatrice-vivaldi.png
@@ -230,7 +236,8 @@ speakers:
   speaker_10: *andreapontiggia
   speaker_11: *letiziasechi
   speaker_12: *mariateresastella
-  speaker_13: *beatricevivaldi
+  speaker_13: *federicavittorielli
+  speaker_14: *beatricevivaldi
 
 tracks:
   track_1: &track_1
@@ -354,6 +361,7 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *danieledelgaudio
+          speaker_2: *federicavittorielli
       # implementare-il-design-thinking-in-una-onp:-le-persone-volontarie-al-centro-5:
       #   item_type: talk
       #   track: *track_1
