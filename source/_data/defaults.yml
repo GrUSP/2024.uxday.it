@@ -17,8 +17,8 @@ conference:
   md_city: "Faenza"
   md_province: "RA"
   md_postal_code: "48018"
-  md_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
-  organizer_url: "http://grusp.org/"
+  md_address: "Via Carlo Cesare Scaletta 10"
+  organizer_url: "https://grusp.org/"
   # contact email
   contact_email: "uxday@grusp.org"
   # these are for the hero section
