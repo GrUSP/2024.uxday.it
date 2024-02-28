@@ -42,14 +42,18 @@ silver:
     site_url: "https://www.workwave.com/"
 bronze:
   sponsor1:
+    name: "Creeo Studio"
+    logo_filename: "creeostudio.svg"
+    site_url: "https://www.creeostudio.it/"
+  sponsor2:
     name: "PianoD"
     logo_filename: "pianod.svg"
     site_url: "https://www.piano-d.it/"
-  sponsor2:
+  sponsor3:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor3:
+  sponsor4:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
