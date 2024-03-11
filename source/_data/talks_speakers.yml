@@ -19,22 +19,24 @@ speaker_1: &nicolabonotto
   speaker_linkedin_url: "https://www.linkedin.com/in/nikolabonotto/"
   speaker_mastodon_url: ""
   is_mc: false
-# speaker_2: &federicobortot
-#   speaker_in_speaker_lists: true
-#   speaker_name: Federico Bortot
-#   speaker_pic_filename: federico-bortot.png
-#   speaker_role: Product Designer @ Mia-Platform
-#   speaker_bio: Dopo una laurea in ingegneria civile e una crisi esistenziale,
-#     ho iniziato il mio percorso come designer industriale al Polimi, per poi
-#     spostarmi professionalmente sempre più verso le esperienze digitali. Sono
-#     passata dalle banche ai videogiochi, e adesso lavoro a un internal developer
-#     platform internazionale (e cerco di capirci qualcosa). Matematica, fisica,
-#     logica, semiotica, interpretazione, sono solo alcuni degli interessi che mi
-#     tengono sveglio la notte. Ultimamente sto molto in fissa con l'ottica, la
-#     percezione dei colori, le onde elettromagnetiche e il magenta.
-#   speaker_twitter: ""
-#   speaker_github: https://github.com/FrankieBortot
-#   speaker_linkedin: https://www.linkedin.com/in/federico-bortot/
+speaker_2: &federicobortot
+  speaker_in_speaker_lists: true
+  speaker_name: Federico Bortot
+  speaker_pic_filename: federico-bortot.png
+  speaker_role: Product Designer @ Mia-Platform
+  speaker_bio: Dopo una laurea in ingegneria civile e una crisi esistenziale,
+    ho iniziato il mio percorso come designer industriale al Polimi, per poi
+    spostarmi professionalmente sempre più verso le esperienze digitali. Sono
+    passata dalle banche ai videogiochi, e adesso lavoro a un internal developer
+    platform internazionale (e cerco di capirci qualcosa). Matematica, fisica,
+    logica, semiotica, interpretazione, sono solo alcuni degli interessi che mi
+    tengono sveglio la notte. Ultimamente sto molto in fissa con l'ottica, la
+    percezione dei colori, le onde elettromagnetiche e il magenta.
+  speaker_github_url: "https://github.com/FrankieBortot"
+  speaker_twitter_url: ""
+  speaker_instagram_url: "https://www.instagram.com/frankie.svg"
+  speaker_linkedin_url: "https://www.linkedin.com/in/federico-bortot/"
+  speaker_mastodon_url: ""
 speaker_3: &michelcatalisano
   speaker_in_speaker_lists: true
   speaker_name: Michel Catalisano
@@ -63,23 +65,21 @@ speaker_4: &danieledelgaudio
     missione è creare prodotti usabili e accessibili, con un approccio centrato
     sull'utente che generi esperienze memorabili.
   speaker_linkedin_url: https://www.linkedin.com/in/ddgux/
-# speaker_5: &riccardofresco
-#   speaker_in_speaker_lists: true
-#   speaker_name: Riccardo Fresco
-#   speaker_pic_filename: riccardo-fresco.png
-#   speaker_role: Product Designer e Volontario Digitale @ Skillando Digital Volunteering
-#   speaker_bio: UX Product Designer con un forte background nel multimedia e lo
-#     sviluppo web, sono volontario dal 2020 in Skillando Digital
-#     Volunteering.  Da anni ho spostato la filosofia del lavoro da remoto e mi
-#     considero nomade digitale viaggiando, ascoltando e imparando da diverse
-#     culture.  Ho sviluppato la mia carriera professionale in Spagna ma rimango
-#     legato all'Italia attraverso la realizzazione di progetti nel
-#     sociale.  Difendo un utilizzo giusto del digitale per rispondere alle
-#     necessità delle persone e mi batto per ridurre le barriere create dalla sua
-#     inarrestabile crescita.
-#   speaker_twitter: ""
-#   speaker_github: ""
-#   speaker_linkedin: https://www.linkedin.com/in/linkedin.com/in/riccardo-fresco
+speaker_5: &riccardofresco
+   speaker_in_speaker_lists: true
+   speaker_name: Riccardo Fresco
+   speaker_pic_filename: riccardo-fresco.png
+   speaker_role: Product Designer e Volontario Digitale @ Skillando Digital Volunteering
+   speaker_bio: UX Product Designer con un forte background nel multimedia e lo
+    sviluppo web, sono volontario dal 2020 in Skillando Digital
+    Volunteering.  Da anni ho spostato la filosofia del lavoro da remoto e mi
+    considero nomade digitale viaggiando, ascoltando e imparando da diverse
+    culture.  Ho sviluppato la mia carriera professionale in Spagna ma rimango
+    legato all'Italia attraverso la realizzazione di progetti nel
+    sociale.  Difendo un utilizzo giusto del digitale per rispondere alle
+    necessità delle persone e mi batto per ridurre le barriere create dalla sua
+    inarrestabile crescita.
+   speaker_linkedin_url: "https://www.linkedin.com/in/linkedin.com/in/riccardo-fresco"
 speaker_6: &elisainvernizzi
   speaker_in_speaker_lists: true
   speaker_name: Elisa Invernizzi
@@ -92,7 +92,7 @@ speaker_6: &elisainvernizzi
     laureata in Comunicazione, Media e Pubblicità e ho conseguito una Magistrale
     in Pubblicità all’Università di Urbino, culla dell’opera “La Città Ideale”.
     Come sarebbe la mia? Ovviamente, accessibile e inclusiva.
-  speaker_twitter_url: https://twitter.com/ciochElisa
+  speaker_twitter_url: "https://twitter.com/ciochElisa"
   speaker_linkedin_url: "https://www.linkedin.com/in/ www.linkedin.com/in/elisa-i-2a5b73120    "
 speaker_7: &mariacristinalavazza
   speaker_in_speaker_lists: true
@@ -135,20 +135,19 @@ speaker_8: &giuliomichelon
   speaker_twitter_url: https://twitter.com/mchgli
   speaker_github: ""
   speaker_linkedin_url: https://www.linkedin.com/in/giuliomichelon/
-# speaker_9: &matteomontolli
-#   speaker_in_speaker_lists: true
-#   speaker_name: Matteo Montolli
-#   speaker_pic_filename: matteo-montolli.png
-#   speaker_role: Design Director
-#   speaker_bio: Dopo la Laurea in Lettere Moderne conseguita presso l’Università
-#     degli Studi di Padova, ha iniziato l’attività imprenditoriale fondando a
-#     Milano nel 2012 Moze, uno studio specializzato nella creazione di software
-#     web e mobile. Le sue competenze spaziano dagli aspetti più creativi del web
-#     a quelli più tecnici, con specializzazioni riguardanti il Product Design, la
-#     User Experience e la User Interface.
-#   speaker_twitter: https://twitter.com/matteomontolli
-#   speaker_github: ""
-#   speaker_linkedin: https://www.linkedin.com/in/matteomontolli/
+speaker_9: &matteomontolli
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo Montolli
+  speaker_pic_filename: matteo-montolli.png
+  speaker_role: Design Director
+  speaker_bio: Dopo la Laurea in Lettere Moderne conseguita presso l’Università
+    degli Studi di Padova, ha iniziato l’attività imprenditoriale fondando a
+    Milano nel 2012 Moze, uno studio specializzato nella creazione di software
+    web e mobile. Le sue competenze spaziano dagli aspetti più creativi del web
+    a quelli più tecnici, con specializzazioni riguardanti il Product Design, la
+    User Experience e la User Interface.
+  speaker_twitter_url: "https://twitter.com/matteomontolli"
+  speaker_linkedin_url: "https://www.linkedin.com/in/matteomontolli/"
 speaker_10: &andreapontiggia
   speaker_in_speaker_lists: true
   speaker_name: Andrea Pontiggia
@@ -224,14 +223,14 @@ speaker_14: &beatricevivaldi
 
 speakers:
   speaker_1: *nicolabonotto
-  # speaker_2: *federicobortot
+  speaker_2: *federicobortot
   speaker_3: *michelcatalisano
   speaker_4: *danieledelgaudio
-  # speaker_5: *riccardofresco
+  speaker_5: *riccardofresco
   speaker_6: *elisainvernizzi
   speaker_7: *mariacristinalavazza
   speaker_8: *giuliomichelon
-  # speaker_9: *matteomontolli
+  speaker_9: *matteomontolli
   speaker_10: *andreapontiggia
   speaker_11: *letiziasechi
   speaker_12: *mariateresastella
@@ -317,30 +316,30 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *nicolabonotto
-      # la-magia-dell'accessibilita-nella-percezione-dei-colori-2:
-      #   item_type: talk
-      #   track: *track_1
-      #   talk_title: La magia dell'accessibilità nella percezione dei colori
-      #   talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la
-      #     vecchia palette utilizzata nel nostro prodotto digitale con quella nuova.
-      #     Perché non approfittarne per preparare il terreno a un sistema di gestione
-      #     dei colori che ci permetta di rispettare i requisiti di accessibilità dei
-      #     componenti grafici in modo più centralizzato? Molti design system (tra cui
-      #     anche il nostro) si basano su diversi colori, utilizzando una scala da 50
-      #     a 900 per identificare i vari toni dal più chiaro al più scuro. Tuttavia -
-      #     con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano
-      #     in modo diverso al contrasto e alla luminosità. In questa presentazione
-      #     racconterò il mio viaggio spericolato tra spazi colori, percezione umana e
-      #     fisiologia dell’occhio, per arrivare a scoprire un nuovo sistema di
-      #     gestione dei colori CSS proposto da una comunità di designer e
-      #     sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere
-      #     l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare
-      #     sì, e vale la pena diffondere la voce."
-      #   talk_video_url: ""
-      #   start_datetime: ""
-      #   end_datetime: ""
-      #   speakers:
-      #     speaker_1: *federicobortot
+      la-magia-dell'accessibilita-nella-percezione-dei-colori-2:
+         item_type: talk
+         track: *track_1
+         talk_title: "La magia dell'accessibilità nella percezione dei colori <i>[lightning talk]</i>"
+         talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la
+           vecchia palette utilizzata nel nostro prodotto digitale con quella nuova.
+           Perché non approfittarne per preparare il terreno a un sistema di gestione
+           dei colori che ci permetta di rispettare i requisiti di accessibilità dei
+           componenti grafici in modo più centralizzato? Molti design system (tra cui
+           anche il nostro) si basano su diversi colori, utilizzando una scala da 50
+           a 900 per identificare i vari toni dal più chiaro al più scuro. Tuttavia -
+           con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano
+           in modo diverso al contrasto e alla luminosità. In questa presentazione
+           racconterò il mio viaggio spericolato tra spazi colori, percezione umana e
+           fisiologia dell’occhio, per arrivare a scoprire un nuovo sistema di
+           gestione dei colori CSS proposto da una comunità di designer e
+           sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere
+           l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare
+           sì, e vale la pena diffondere la voce."
+         talk_video_url: ""
+         start_datetime: ""
+         end_datetime: ""
+         speakers:
+           speaker_1: *federicobortot
       supereroi-e-super-interfacce:-il-futuro-e-oggi-4:
         item_type: talk
         track: *track_1
@@ -361,28 +360,28 @@ days:
         speakers:
           speaker_1: *danieledelgaudio
           speaker_2: *federicavittorielli
-      # implementare-il-design-thinking-in-una-onp:-le-persone-volontarie-al-centro-5:
-      #   item_type: talk
-      #   track: *track_1
-      #   talk_title: "Implementare il Design Thinking in una ONP: le persone volontarie al
-      #     centro"
-      #   talk_description: "Skillando Digital Volunteering è una community di volontariato digitale
-      #     che appoggia organizzazioni del terzo settore con lo scopo di ridurre il
-      #     digital divide tanto in Italia quanto nel resto del mondo.  Nell’ultimo
-      #     anno abbiamo ripensato alla nostra identità e cambiato il modello da
-      #     project based a platform based permettendo ad ogni persona di costruire
-      #     iniziative a favore della Mission per cui esistiamo.  In tal senso ci
-      #     siamo chiesti come poter riattivare e far crescere la community
-      #     focalizzandoci in persone motivate a donare tempo e competenze.  Spoiler
-      #     alert: il Design Thinking ci ha aiutato moltossimo! In questo talk voglio
-      #     condividere l’approccio che abbiamo adottato ascoltando le voci delle
-      #     persone volontarie insieme ai risultati e a ciò che abbiamo imparato
-      #     co-creando i processi interni della nostra ONP."
-      #   talk_video_url: ""
-      #   start_datetime: ""
-      #   end_datetime: ""
-      #   speakers:
-      #     speaker_1: *riccardofresco
+      implementare-il-design-thinking-in-una-onp:-le-persone-volontarie-al-centro-5:
+         item_type: talk
+         track: *track_1
+         talk_title: "Implementare il Design Thinking in una ONP: le persone volontarie al
+           centro <i>[lightning talk]</i>"
+         talk_description: "Skillando Digital Volunteering è una community di volontariato digitale
+           che appoggia organizzazioni del terzo settore con lo scopo di ridurre il
+           digital divide tanto in Italia quanto nel resto del mondo.  Nell’ultimo
+           anno abbiamo ripensato alla nostra identità e cambiato il modello da
+           project based a platform based permettendo ad ogni persona di costruire
+           iniziative a favore della Mission per cui esistiamo.  In tal senso ci
+           siamo chiesti come poter riattivare e far crescere la community
+           focalizzandoci in persone motivate a donare tempo e competenze.  Spoiler
+           alert: il Design Thinking ci ha aiutato moltossimo! In questo talk voglio
+           condividere l’approccio che abbiamo adottato ascoltando le voci delle
+           persone volontarie insieme ai risultati e a ciò che abbiamo imparato
+           co-creando i processi interni della nostra ONP."
+         talk_video_url: ""
+         start_datetime: ""
+         end_datetime: ""
+         speakers:
+           speaker_1: *riccardofresco
       case-study:-conferme-e-rivelazioni-sulla-casa-intelligente-bticino-6:
         item_type: talk
         track: *track_1
@@ -449,24 +448,24 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *giuliomichelon
-      # ora-come-mai-prima-d'ora-l'uomo-e-al-centro-9:
-      #   item_type: talk
-      #   track: *track_1
-      #   talk_title: Ora, come mai prima d’ora, l’uomo è al centro
-      #   talk_description: Il talk è indirizzato a professionisti che lavorano nell'ambito
-      #     dell'innovazione digitale, tra cui designer, product manager e
-      #     sviluppatori. Il suo focus principale è la crescente influenza
-      #     dell'intelligenza artificiale e l'importanza per gli esseri umani di
-      #     riaffermare il proprio ruolo in questo contesto. Sottolinea l'essenzialità
-      #     di una progettazione centrata sull'utente, mirata a creare esperienze
-      #     complete e armoniose che tengano conto sia delle necessità funzionali sia
-      #     di quelle emotive. Durante il talk verranno esplorate varie strategie e
-      #     metodologie per agevolare questo approccio.
-      #   talk_video_url: ""
-      #   start_datetime: ""
-      #   end_datetime: ""
-      #   speakers:
-      #     speaker_1: *matteomontolli
+      ora-come-mai-prima-d'ora-l'uomo-e-al-centro-9:
+        item_type: talk
+        track: *track_1
+        talk_title: "Ora, come mai prima d’ora, l’uomo è al centro <i>[lightning talk]</i>"
+        talk_description: Il talk è indirizzato a professionisti che lavorano nell'ambito
+          dell'innovazione digitale, tra cui designer, product manager e
+          sviluppatori. Il suo focus principale è la crescente influenza
+          dell'intelligenza artificiale e l'importanza per gli esseri umani di
+          riaffermare il proprio ruolo in questo contesto. Sottolinea l'essenzialità
+          di una progettazione centrata sull'utente, mirata a creare esperienze
+          complete e armoniose che tengano conto sia delle necessità funzionali sia
+          di quelle emotive. Durante il talk verranno esplorate varie strategie e
+          metodologie per agevolare questo approccio.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *matteomontolli
       tutto-sotto-controllo:-come-gestire-le-linee-guida-sui-contenuti-all'interno-del-design-system-11:
         item_type: talk
         track: *track_1
