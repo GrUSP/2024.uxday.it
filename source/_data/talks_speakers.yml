@@ -139,7 +139,7 @@ speaker_9: &matteomontolli
   speaker_in_speaker_lists: true
   speaker_name: Matteo Montolli
   speaker_pic_filename: matteo-montolli.png
-  speaker_role: Design Director
+  speaker_role: Design Director @ Moze
   speaker_bio: Dopo la Laurea in Lettere Moderne conseguita presso l’Università
     degli Studi di Padova, ha iniziato l’attività imprenditoriale fondando a
     Milano nel 2012 Moze, uno studio specializzato nella creazione di software
@@ -320,21 +320,7 @@ days:
          item_type: talk
          track: *track_1
          talk_title: "La magia dell'accessibilità nella percezione dei colori <i>[lightning talk]</i>"
-         talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la
-           vecchia palette utilizzata nel nostro prodotto digitale con quella nuova.
-           Perché non approfittarne per preparare il terreno a un sistema di gestione
-           dei colori che ci permetta di rispettare i requisiti di accessibilità dei
-           componenti grafici in modo più centralizzato? Molti design system (tra cui
-           anche il nostro) si basano su diversi colori, utilizzando una scala da 50
-           a 900 per identificare i vari toni dal più chiaro al più scuro. Tuttavia -
-           con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano
-           in modo diverso al contrasto e alla luminosità. In questa presentazione
-           racconterò il mio viaggio spericolato tra spazi colori, percezione umana e
-           fisiologia dell’occhio, per arrivare a scoprire un nuovo sistema di
-           gestione dei colori CSS proposto da una comunità di designer e
-           sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere
-           l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare
-           sì, e vale la pena diffondere la voce."
+         talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la vecchia palette utilizzata nel nostro prodotto digitale. Perché non approfittarne per preparare il terreno a un sistema di gestione dei colori che ci permetta di rispettare i requisiti di accessibilità dei componenti grafici in modo più centralizzato? Molti design system si basano su diverse gradazioni di colore, tuttavia - con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano in modo diverso al contrasto e alla luminosità. In questa presentazione racconterò il mio viaggio spericolato tra spazi colori e percezione, per arrivare a scoprire un nuovo sistema di gestione dei colori proposto da una comunità di designer e sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare sì, e vale la pena diffondere la voce."
          talk_video_url: ""
          start_datetime: ""
          end_datetime: ""
@@ -365,18 +351,9 @@ days:
          track: *track_1
          talk_title: "Implementare il Design Thinking in una ONP: le persone volontarie al
            centro <i>[lightning talk]</i>"
-         talk_description: "Skillando Digital Volunteering è una community di volontariato digitale
-           che appoggia organizzazioni del terzo settore con lo scopo di ridurre il
-           digital divide tanto in Italia quanto nel resto del mondo.  Nell’ultimo
-           anno abbiamo ripensato alla nostra identità e cambiato il modello da
-           project based a platform based permettendo ad ogni persona di costruire
-           iniziative a favore della Mission per cui esistiamo.  In tal senso ci
-           siamo chiesti come poter riattivare e far crescere la community
-           focalizzandoci in persone motivate a donare tempo e competenze.  Spoiler
-           alert: il Design Thinking ci ha aiutato moltossimo! In questo talk voglio
-           condividere l’approccio che abbiamo adottato ascoltando le voci delle
-           persone volontarie insieme ai risultati e a ciò che abbiamo imparato
-           co-creando i processi interni della nostra ONP."
+         talk_description: "Skillando Digital Volunteering è una community di volontariato digitale che appoggia organizzazioni del terzo settore con lo scopo di ridurre il divario digitale tanto in Italia quanto nel resto del mondo.
+Nell’ultimo anno abbiamo ripensato a come poter migliorare i processi interni della ONP e ce l'abbiamo fatta ascoltando le voci di persone motivate e disposte a donare tempo e competenze a favore della nostra Mission.
+In questo talk voglio condividere l’approccio di Design Thinking che abbiamo adottato e gli insegnamenti acquisiti durante percorso."
          talk_video_url: ""
          start_datetime: ""
          end_datetime: ""
@@ -451,16 +428,8 @@ days:
       ora-come-mai-prima-d'ora-l'uomo-e-al-centro-9:
         item_type: talk
         track: *track_1
-        talk_title: "Ora, come mai prima d’ora, l’uomo è al centro <i>[lightning talk]</i>"
-        talk_description: Il talk è indirizzato a professionisti che lavorano nell'ambito
-          dell'innovazione digitale, tra cui designer, product manager e
-          sviluppatori. Il suo focus principale è la crescente influenza
-          dell'intelligenza artificiale e l'importanza per gli esseri umani di
-          riaffermare il proprio ruolo in questo contesto. Sottolinea l'essenzialità
-          di una progettazione centrata sull'utente, mirata a creare esperienze
-          complete e armoniose che tengano conto sia delle necessità funzionali sia
-          di quelle emotive. Durante il talk verranno esplorate varie strategie e
-          metodologie per agevolare questo approccio.
+        talk_title: "Lavorare per clienti vs. Lavorare per te stesso: Cinque verità sorprendenti che ho imparato sul campo <i>[lightning talk]</i>"
+        talk_description: "Immagina di essere catapultato in un mondo dove il tuo unico cliente sei tu stesso. Questo è esattamente ciò che è successo a me quando ho fatto il grande salto da lavorare per clienti esterni a lanciare il nostro prodotto, Hellotime, uno strumento di capacity planning per agenzie. In questo viaggio, ho scoperto cinque verità sorprendenti che nessuno mi aveva mai detto."
         talk_video_url: ""
         start_datetime: ""
         end_datetime: ""
