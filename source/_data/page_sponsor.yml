@@ -26,7 +26,7 @@ levels:
     name: Main
     amount: 5000
     vat_label: "(+ VAT 22%)"
-    available_slots: 1
+    available_slots: 0
     description_1:
       - "Talk (massimo 30 minuti, non sono accettati talk commerciali)"
       - "Accesso alla lista dei partecipanti (che hanno dato consenso a condivisione dati)"
@@ -51,7 +51,7 @@ levels:
     name: Diamond
     amount: 3000
     vat_label: "(+ VAT 22%)"
-    available_slots: 1
+    available_slots: 0
     description_1:
       - "Accesso alla lista dei partecipanti (che hanno dato consenso a condivisione dati)"
     description_2:
