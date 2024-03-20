@@ -221,6 +221,18 @@ speaker_14: &beatricevivaldi
   speaker_github: ""
   speaker_linkedin_url: https://www.linkedin.com/in/beatricevivaldi/
 
+speaker_15: &marco-santonocito
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Santonocito
+  speaker_pic_filename: marco-santonocito.png
+  speaker_role: "MASTER OF CEREMONIES - Chief Product & Technology Officer @ Testbusters"
+  speaker_bio: ""
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_linkedin_url: ""
+  is_mc: true
+
+
 speakers:
   speaker_1: *nicolabonotto
   speaker_2: *federicobortot
@@ -236,6 +248,7 @@ speakers:
   speaker_12: *mariateresastella
   speaker_13: *federicavittorielli
   speaker_14: *beatricevivaldi
+  speaker_15: *marco-santonocito
 
 tracks:
   track_1: &track_1

@@ -37,6 +37,10 @@ silver:
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com/?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
   sponsor4:
+    name: "Tangible"
+    logo_filename: "tangible.svg"
+    site_url: "https://tangible.is/"
+  sponsor5:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
