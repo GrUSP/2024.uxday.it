@@ -52,7 +52,7 @@ workshops:
       teacher_1:
         teacher_name: "Maurizio Schifano"
         teacher_bio: "Maurizio è Designer e ricercatore. Con più di 10 anni di esperienza nel campo del design pratico e teorico fa parte del team di Etnograph dal 2022.
-        Nel lavoro e nella ricerca esplora nuove metodologie e approcci inediti per abilitare le capacità di autoprogettazione delle comunità e impiega nuove e vecchie tecnologie con un approccio hacker alla conoscenza."
+        Nel lavoro e nella ricerca esplora nuove metodologie e approcci inediti per abilitare le capacità di autoprogettazione delle comunità e impiega nuove e vecchie tecnologie con un approccio hacker alla conoscenza.  | <a href='https://www.linkedin.com/in/schifanomaurizio/'>Profilo LinkedIn</a>"
         pic_filename: "maurizio-schifano.png"
         teacher_role: "UX Designer | Educator | Facilitator"
         teacher_org: "Etnograph"
@@ -60,7 +60,7 @@ workshops:
         teacher_name: "Paolo Montevecchi"
         teacher_bio: "Nel 2013, ha fondato lo studio di design Etnograph e da allora ha accumulato una vasta esperienza nel campo del design e dell’esperienza utente.
         Ha seguito la prima campagna italiana di crowdfunding civico, la prima ICO per il mercato italiano e ha gestito la prima pubblicità su stampa internazionale per un progetto di cryptocurrency. Ogni giorno, applica gli approcci 'Human centred design' e 'Design thinking', sottolineando come le moderne tecnologie abbiano reso l'accesso alle informazioni così immediato da trasformare le idee in commodity.
-        'In ogni progetto, cerco sempre qualcosa di sorprendente che mi aiuta a non dare mai nulla per scontato.'"
+        'In ogni progetto, cerco sempre qualcosa di sorprendente che mi aiuta a non dare mai nulla per scontato.' | <a href='https://www.linkedin.com/in/montevecchipaolo/'>Profilo LinkedIn</a>"
         pic_filename: "paolo-montevecchi.png"
         teacher_role: "Ux lead designer | Co-founder"
         teacher_org: "Etnograph"
@@ -68,7 +68,7 @@ workshops:
         teacher_name: "Eleonora Corti"
         teacher_bio: "Dal 2016 Eleonora fa parte del team di Etnograph, dove lavora quotidianamente con le parole e con le persone.
         Con un’esperienza decennale maturata nel campo del giornalismo, dell’archivistica e delle digital humanities, aiuta i clienti a dare un senso ai loro brand, spiegando la complessità e organizzando le informazioni in spazi fisici e digitali.
-        Ogni tanto la trovate a camminare in montagna."
+        Ogni tanto la trovate a camminare in montagna. | <a href='https://www.linkedin.com/in/eleonora-corti-964276a4/'>Profilo LinkedIn</a>"
         pic_filename: "eleonora-corti.png"
         teacher_role: "Information architect | Ux Writer | User researcher"
         teacher_org: "Etnograph"
@@ -94,3 +94,79 @@ workshops:
     </ul>"
     # CTA
     cta_title: "Acquista il biglietto per partecipare"
+
+
+  design-system:
+    ws_id: design-system
+    is_external: false
+    page_uri: "workshop/design-system.html"
+    page_title: "Workshop: The science of a button: Introduzione ai design system"
+    workshop_title: "The science of a button: Introduzione ai design system"
+    ticket_url: "https://ti.to/grusp/cssday-2024"
+    ticket_label: "Partecipa"
+    location_title: "Dove"
+    location: "In presenza a Faenza"
+   # online_location: "online"
+    location_name: "In presenza a Faenza, presso Faventia Sales (Complesso Ex Salesiani)"
+    # location_name: "The Internet"
+    # location_contact_phone: "+045569011"
+    # location_contact_email: "sanmarco@sanmarco.vr.it"
+    # location_contact_url: "https://www.sanmarco.vr.it/"
+    location_address: "Via San Giovanni Bosco 1, Faenza"
+    location_maps_url: "https://goo.gl/maps/UmD42mCcBRPiXzwd8"
+    location_maps_label: "Dove"
+    # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
+    # location_additional_info: "Il workshop si svolge online, in aula virtuale"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Giovedì 6 Giugno 2024, dalle 9:30 alle 17:30. Pausa caffè e pranzo inclusi."
+    # whatandwhen_additional_info: "additional"
+    date: 2024-06-06T09:30+02:00
+    end_date: 2024-06-06T18:00+02:00
+    date_text: "Giovedì 6 Giugno 2024, dalle 9:30 alle 17:30"
+    language_title: "Lingua"
+    language: "italiano"
+    language_ext: ""
+    language_additional_info: ""
+    collab: "Workshop in presenza a Faenza realizzato in collaborazione con <a href='https://www.linkedin.com/company/apropos-srl/'>Apropos</a>."
+    description: "Impara a progettare e implementare un design system scalabile e coeso."
+    description_long:
+      "<strong> <h3>Impara a progettare e implementare un design system scalabile e coeso.</h3></strong>
+      In questo workshop intensivo di una giornata, imparerai i principi fondamentali per la creazione di un design system efficace e come integrarlo con successo nel tuo team.
+      <br><br  />Attraverso spiegazioni teoriche, esercitazioni pratiche e discussioni di gruppo, acquisirai competenze per progettare e implementare un design system che promuova la coerenza, la flessibilità e l’efficienza nel tuo flusso di lavoro e di sviluppo.
+      <br><br  /> "
+    # video trailer?
+    trailer: false
+    trailer_url: "https://player.vimeo.com/video/352012164"
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Insegnante"
+    teachers:
+      teacher_1:
+        teacher_name: "Filippo Gianessi"
+        teacher_bio: "Product designer, remote worker, agile enthusiast e appassionato di graphic design. Attualmente sono Head of Design presso Spreaker from iHeart e mentor presso il Contamination Lab di Faenza. Sono cresciuto tra il design industriale e lo sviluppo software. Mi occupo di mantenere le soluzioni semplici, scalabili e accessibili: nella progettazione, nel codice e nella strategia. Nel quotidiano mi puoi trovare in coworking a curare l'esperienza utente dei prodotti di Spreaker, in Clab o a qualche concerto sperduto in Romagna. Amo i design systems da tanto tempo, sicuramente dall'uscita del libro di Alla Kholmatova con la quale ho avuto l'occasione e fortuna di lavorare al primo workshop tenuto in Italia sui design systems (Bologna, 2018)."
+        pic_filename: "filippo-gianessi.png"
+        teacher_role: "Head of design"
+        teacher_org: "Spreaker from iHeart"
+    topics_title: "Argomenti trattati"
+    topics:
+      - "Introduzione ai design system e pattern funzionali e visivi"
+      - "Inventario dei componenti visivi e dei pattern funzionali"
+      - "Organizzazione modulare con Atomic Design e Tokens"
+      - "Introduzione alla creazione di un design system in Figma"
+      - "Definizione e implementazione di Design Token e componenti"
+      - "Documentazione, rituali e governance per il mantenimento dei Design System nel lungo periodo"
+    addressees_title: "A chi è rivolto"
+    addressees_description: "Questo workshop è rivolto a developer, designer e professionisti/e del settore interessati a comprendere e implementare un design system efficace."
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "<bold>Questo workshop è di livello introduttivo.</bold>
+    <br>È richiesta una conoscenza di base di HTML e CSS. Non sono richieste competenze avanzate di sviluppo o esperienza specifica con framework o strumenti di progettazione."
+    useful_info_title: "Cosa ottieni partecipando"
+    useful_info_description: "<ul>
+    <li>Comprensione dei principi fondamentali di progettazione di un design system;
+    <li>Strumenti per analizzare interfacce già esistenti e organizzarle in componenti visivi coesi;</li>
+    <li>Esperienza pratica nell’utilizzo di Figma per la creazione e la comunicazione di un design system;</li>
+    <li>Strumenti per migliorare la gestione del codice e la comunicazione con il team di designer;</li>
+    <li>Conoscenze per ottimizzare, documentare e distribuire il design system.</li>
+    </ul>"
+    # CTA
+    cta_title: "Acquista il biglietto per partecipare"
+

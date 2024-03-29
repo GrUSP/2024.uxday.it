@@ -57,7 +57,8 @@ conference:
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
   geninfo_description: "uxday 2024 è la terza edizione dell'evento dedicato esclusivamente alla User Experience, in tutte le sue declinazioni.
-  </br> <br />Organizzata dal team GrUSP, come già <a href='https://cssday.it'>cssday</a> e <a href='https://kerning.it'>kerning</a>, sarà l'occasione per la community italiana di designer e in particolare per chi si occupa di UX di incontrarsi, condividere esperienze e conoscenze, far nascere nuovi progetti e collaborazioni."
+  </br> <br />Organizzata dal team GrUSP, come già <a href='https://cssday.it'>cssday</a> e <a href='https://kerning.it'>kerning</a>, sarà l'occasione per la community italiana di designer e in particolare per chi si occupa di UX di incontrarsi, condividere esperienze e conoscenze, far nascere nuovi progetti e collaborazioni.
+  </br> <br /><b>La conferenza è Venerdì 7 Giugno 2024.</b> Il giorno prima, Giovedì 6 Giugno, in presenza a Faenza, ci sono due <a href='https://2024.uxday.it/workshop/'>workshop</a>."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -106,7 +107,7 @@ conference:
     - "Metodologie"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
