@@ -11,6 +11,10 @@ sponsors_block_title: ""
 #     site_url: ""
 platinum:
   sponsor1:
+    name: "beliven"
+    logo_filename: "beliven.svg"
+    site_url: "https://beliven.com/"
+  sponsor2:
     name: "vianova"
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/people/"
@@ -46,18 +50,26 @@ silver:
     site_url: "https://www.workwave.com/"
 bronze:
   sponsor1:
+    name: "belka"
+    logo_filename: "belka.svg"
+    site_url: "https://www.belkadigital.com/"
+  sponsor2:
     name: "Creeo Studio"
     logo_filename: "creeostudio.svg"
     site_url: "https://www.creeostudio.it/"
-  sponsor2:
+  sponsor3:
     name: "PianoD"
     logo_filename: "pianod.svg"
     site_url: "https://www.piano-d.it/"
-  sponsor3:
+  sponsor4:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor4:
+  sponsor5:
+    name: "Seesaw"
+    logo_filename: "seesaw.png"
+    site_url: "https://seesaw.it/"
+  sponsor6:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
