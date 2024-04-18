@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -290,7 +290,7 @@ days:
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2024-06-07T12:50+02:00
+        start_datetime: 2024-06-07T13:05+02:00
         end_datetime: 2024-06-07T14:30+02:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
