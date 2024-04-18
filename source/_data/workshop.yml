@@ -142,10 +142,10 @@ workshops:
     teachers:
       teacher_1:
         teacher_name: "Filippo Gianessi"
-        teacher_bio: "Product designer, remote worker, agile enthusiast e appassionato di graphic design. Attualmente sono Head of Design presso Spreaker from iHeart e mentor presso il Contamination Lab di Faenza. Sono cresciuto tra il design industriale e lo sviluppo software. Mi occupo di mantenere le soluzioni semplici, scalabili e accessibili: nella progettazione, nel codice e nella strategia. Nel quotidiano mi puoi trovare in coworking a curare l'esperienza utente dei prodotti di Spreaker, in Clab o a qualche concerto sperduto in Romagna. Amo i design systems da tanto tempo, sicuramente dall'uscita del libro di Alla Kholmatova con la quale ho avuto l'occasione e fortuna di lavorare al primo workshop tenuto in Italia sui design systems (Bologna, 2018)."
+        teacher_bio: "Product designer, remote worker, agile enthusiast e appassionato di graphic design. Attualmente sono Senior Growth Product Designer @ Yazio, e mentor presso il Contamination Lab di Faenza. Sono cresciuto tra il design industriale e lo sviluppo software. Mi occupo di mantenere le soluzioni semplici, scalabili e accessibili: nella progettazione, nel codice e nella strategia. Nel quotidiano mi puoi trovare in coworking a curare l'esperienza utente dei prodotti di Spreaker, in Clab o a qualche concerto sperduto in Romagna. Amo i design systems da tanto tempo, sicuramente dall'uscita del libro di Alla Kholmatova con la quale ho avuto l'occasione e fortuna di lavorare al primo workshop tenuto in Italia sui design systems (Bologna, 2018)."
         pic_filename: "filippo-gianessi.png"
-        teacher_role: "Head of design"
-        teacher_org: "Spreaker from iHeart"
+        teacher_role: "Senior Growth Product Designer"
+        teacher_org: "Yazio"
     topics_title: "Argomenti trattati"
     topics:
       - "Introduzione ai design system e pattern funzionali e visivi"
