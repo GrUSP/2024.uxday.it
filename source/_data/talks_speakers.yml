@@ -349,19 +349,17 @@ days:
         speakers:
           speaker_1: *giuliomichelon
 
-      implementare-il-design-thinking-in-una-onp:-le-persone-volontarie-al-centro-5:
+      lavorare-per-clienti-9:
         item_type: talk
         track: *track_1
-        talk_title: "Implementare il Design Thinking in una ONP: le persone volontarie al
-          centro <i>[lightning talk]</i>"
-        talk_description: "Skillando Digital Volunteering è una community di volontariato digitale che appoggia organizzazioni del terzo settore con lo scopo di ridurre il divario digitale tanto in Italia quanto nel resto del mondo.
-Nell’ultimo anno abbiamo ripensato a come poter migliorare i processi interni della ONP e ce l'abbiamo fatta ascoltando le voci di persone motivate e disposte a donare tempo e competenze a favore della nostra Mission.
-In questo talk voglio condividere l’approccio di Design Thinking che abbiamo adottato e gli insegnamenti acquisiti durante percorso."
+        talk_title: "Lavorare per clienti vs. Lavorare per te stesso: Cinque verità sorprendenti che ho imparato sul campo <i>[lightning talk]</i>"
+        talk_description: "Immagina di essere catapultato in un mondo dove il tuo unico cliente sei tu stesso. Questo è esattamente ciò che è successo a me quando ho fatto il grande salto da lavorare per clienti esterni a lanciare il nostro prodotto, Hellotime, uno strumento di capacity planning per agenzie. In questo viaggio, ho scoperto cinque verità sorprendenti che nessuno mi aveva mai detto."
         talk_video_url: ""
         start_datetime: 2024-06-07T10:55+02:00
         end_datetime: 2024-06-07T11:10+02:00
         speakers:
-          speaker_1: *riccardofresco
+          speaker_1: *matteomontolli
+
       come-progettare-interfacce-complesse-per-il-mondo-business:-un-salto-nella-enterprise-ux-12:
         item_type: talk
         track: *track_1
@@ -409,16 +407,16 @@ In questo talk voglio condividere l’approccio di Design Thinking che abbiamo a
         speakers:
           speaker_1: *elisainvernizzi
           speaker_2: *andreapontiggia
-      lavorare-per-clienti-9:
+      la-magia-dell'accessibilita-nella-percezione-dei-colori-2:
         item_type: talk
         track: *track_1
-        talk_title: "Lavorare per clienti vs. Lavorare per te stesso: Cinque verità sorprendenti che ho imparato sul campo <i>[lightning talk]</i>"
-        talk_description: "Immagina di essere catapultato in un mondo dove il tuo unico cliente sei tu stesso. Questo è esattamente ciò che è successo a me quando ho fatto il grande salto da lavorare per clienti esterni a lanciare il nostro prodotto, Hellotime, uno strumento di capacity planning per agenzie. In questo viaggio, ho scoperto cinque verità sorprendenti che nessuno mi aveva mai detto."
+        talk_title: "La magia dell'accessibilità nella percezione dei colori <i>[lightning talk]</i>"
+        talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la vecchia palette utilizzata nel nostro prodotto digitale. Perché non approfittarne per preparare il terreno a un sistema di gestione dei colori che ci permetta di rispettare i requisiti di accessibilità dei componenti grafici in modo più centralizzato? Molti design system si basano su diverse gradazioni di colore, tuttavia - con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano in modo diverso al contrasto e alla luminosità. In questa presentazione racconterò il mio viaggio spericolato tra spazi colori e percezione, per arrivare a scoprire un nuovo sistema di gestione dei colori proposto da una comunità di designer e sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare sì, e vale la pena diffondere la voce."
         talk_video_url: ""
         start_datetime: 2024-06-07T12:50+02:00
         end_datetime: 2024-06-07T13:05+02:00
         speakers:
-          speaker_1: *matteomontolli
+           speaker_1: *federicobortot
       tutto-sotto-controllo:-come-gestire-le-linee-guida-sui-contenuti-all'interno-del-design-system-11:
         item_type: talk
         track: *track_1
@@ -457,16 +455,20 @@ In questo talk voglio condividere l’approccio di Design Thinking che abbiamo a
         end_datetime: 2024-06-07T15:40+02:00
         speakers:
           speaker_1: *nicolabonotto
-      la-magia-dell'accessibilita-nella-percezione-dei-colori-2:
+
+      implementare-il-design-thinking-in-una-onp:-le-persone-volontarie-al-centro-5:
         item_type: talk
         track: *track_1
-        talk_title: "La magia dell'accessibilità nella percezione dei colori <i>[lightning talk]</i>"
-        talk_description: "Con il recente rebranding aziendale mi sono trovato a dover aggiornare la vecchia palette utilizzata nel nostro prodotto digitale. Perché non approfittarne per preparare il terreno a un sistema di gestione dei colori che ci permetta di rispettare i requisiti di accessibilità dei componenti grafici in modo più centralizzato? Molti design system si basano su diverse gradazioni di colore, tuttavia - con mio grosso stupore - mi sono accorto che tonalità diverse rispondevano in modo diverso al contrasto e alla luminosità. In questa presentazione racconterò il mio viaggio spericolato tra spazi colori e percezione, per arrivare a scoprire un nuovo sistema di gestione dei colori proposto da una comunità di designer e sviluppatori. Un viaggio partito tutto dalla domanda: possiamo rendere l’accessibilità sistematica, comprensibile e sostenibile? A quanto pare sì, e vale la pena diffondere la voce."
+        talk_title: "Implementare il Design Thinking in una ONP: le persone volontarie al
+          centro <i>[lightning talk]</i>"
+        talk_description: "Skillando Digital Volunteering è una community di volontariato digitale che appoggia organizzazioni del terzo settore con lo scopo di ridurre il divario digitale tanto in Italia quanto nel resto del mondo.
+Nell’ultimo anno abbiamo ripensato a come poter migliorare i processi interni della ONP e ce l'abbiamo fatta ascoltando le voci di persone motivate e disposte a donare tempo e competenze a favore della nostra Mission.
+In questo talk voglio condividere l’approccio di Design Thinking che abbiamo adottato e gli insegnamenti acquisiti durante percorso."
         talk_video_url: ""
         start_datetime: 2024-06-07T15:40+02:00
         end_datetime: 2024-06-07T15:55+02:00
         speakers:
-           speaker_1: *federicobortot
+          speaker_1: *riccardofresco
       jurassic-ux:-design-best-practices-per-software-legacy-13:
         item_type: talk
         track: *track_1
