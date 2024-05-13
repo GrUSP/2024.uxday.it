@@ -19,11 +19,15 @@ platinum:
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/people/"
 gold:
-  sponsor0:
+  sponsor1:
+    name: "Conflux"
+    logo_filename: "conflux.png"
+    site_url: "https://www.weareconflux.com/it/"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor1:
+  sponsor3:
     name: "Moze"
     logo_filename: "moze.svg"
     site_url: "https://www.mozestudio.com/it/"
