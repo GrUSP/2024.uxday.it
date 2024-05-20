@@ -21,7 +21,7 @@ platinum:
 gold:
   sponsor1:
     name: "Conflux"
-    logo_filename: "conflux.png"
+    logo_filename: "conflux.svg"
     site_url: "https://www.weareconflux.com/it/"
   sponsor2:
     name: "Daruma"
