@@ -62,18 +62,22 @@ bronze:
     logo_filename: "creeostudio.svg"
     site_url: "https://www.creeostudio.it/"
   sponsor3:
+    name: "Mono."
+    logo_filename: "mono.svg"
+    site_url: "https://mono.studio/it/"
+  sponsor4:
     name: "PianoD"
     logo_filename: "pianod.svg"
     site_url: "https://www.piano-d.it/"
-  sponsor4:
+  sponsor5:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor5:
+  sponsor6:
     name: "Seesaw"
     logo_filename: "seesaw.png"
     site_url: "https://seesaw.it/"
-  sponsor6:
+  sponsor7:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
